@@ -1,0 +1,115 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+    border-bottom: 4px solid #FFD700; /* Golden border for a retro feel */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #FFD700; /* Golden yellow color for the header text */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Hover color change to golden yellow */
+}
+
+main {
+    padding: 20px;
+}
+
+.game-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the game cards */
+}
+
+.game-card {
+    background-color: #333; /* Dark background color */
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    border: 2px solid #FFD700; /* Golden border for game cards */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4); /* Shadow effect */
+    height: 730px;
+}
+
+.game-card-image {
+   
+}
+
+.game-card-content {
+    flex: 1 0 auto; /* Content takes the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items at the start */
+    align-items: flex-start;
+    text-align: left; /* Align text to the left */
+}
+.game-card h3 {
+    color: #FFD700; /* Golden yellow color for game titles */
+    font-size: .9em;
+}
+
+.game-card p {
+    color: #FFF; /* White color for text */
+    margin: 10px 0;
+}
+
+.game-card p strong {
+    color: #FFD700; /* Golden yellow color for labels */
+    margin-right: 10px; /* Adds some space between the label and the data */
+    font-size: .8em;
+}
+
+.game-card p span {
+    color: #FFF; /* White color for data */
+    margin-left: auto; /* Ensures the span pushes to the right */
+}
+
+.game-card img {
+    width: 100%; /* Make sure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+    
+}
+
+footer {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    color: #FFF; /* White color for footer text */
+    margin: 0;
+}
